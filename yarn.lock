@@ -72,9 +72,10 @@ artillery-plugin-statsd@^2.2.1:
     lodash "^4.17.11"
     lynx "^0.2.0"
 
-artillery@^1.6.0-26:
-  version "1.6.0-26"
-  resolved "https://registry.yarnpkg.com/artillery/-/artillery-1.6.0-26.tgz#a21c98a1964d5713952b6992a7b1b54184aef94a"
+artillery@1.6.0-25:
+  version "1.6.0-25"
+  resolved "https://registry.yarnpkg.com/artillery/-/artillery-1.6.0-25.tgz#d42f3c58d807035a2d13609a57d23b5d792894ec"
+  integrity sha512-PAA70Gbsa8A5Oem6uTfKrKgEDJ+M4xSySZ2ujvOlT6zT2vZvSrPiROlw71mOFYB50Nze7r3vxN8BehQzhCuzkg==
   dependencies:
     arrivals "^2.1.2"
     artillery-plugin-statsd "^2.2.1"
@@ -82,7 +83,7 @@ artillery@^1.6.0-26:
     chalk "1.1.3"
     cheerio "^1.0.0-rc.2"
     commander "2.9.0"
-    csv-parse "^4.0.1"
+    csv-parse "^0.1.4"
     debug "^2.2.0"
     deep-equal "^1.0.1"
     driftless "^2.0.3"
@@ -331,9 +332,10 @@ css-what@2.1:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/css-what/-/css-what-2.1.2.tgz#c0876d9d0480927d7d4920dcd72af3595649554d"
 
-csv-parse@^4.0.1:
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/csv-parse/-/csv-parse-4.3.0.tgz#e27cc1c4c5426201a896389c9f97273a0d47dad4"
+csv-parse@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/csv-parse/-/csv-parse-0.1.4.tgz#f6294f97e8581bc3e547dd43db9d1197f8332518"
+  integrity sha1-9ilPl+hYG8PlR91D250Rl/gzJRg=
 
 dashdash@^1.12.0:
   version "1.14.1"
