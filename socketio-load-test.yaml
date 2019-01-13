@@ -1,0 +1,19 @@
+config:
+  target: "http://localhost:3030"
+  phases:
+    - duration: 300
+      arrivalRate: 5
+      rampTo: 500
+      name: "A user fetches people"
+
+  defaults:
+    headers:
+        Authorization: "Bearer {MY_AUTH_TOKEN_HERE}"
+
+scenarios:
+  - engine: "socketio"
+    flow:
+      - emit:
+          channel: "users::find"
+      - think: 60
+
